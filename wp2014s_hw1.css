@@ -1,6 +1,6 @@
 body{
   position:relative;
-  width:500px;
+  width:700px;
   height:400px;
   padding:5em 20em;
  background:url(http://www.unsigneddesign.com/10_Subtle_Grunge_Textures/subtlegrunge_1.jpg) repeat; 
@@ -15,15 +15,21 @@ header{
  }
 
 
+.animation{
+  position:relative;
+
+
+}
+
 h3{
   color:black;
 }
 
 article{
     width:500px ;
-    text-align:center;
+    float: left;
     color:dimgray;
-    padding:0 0 0 4m;
+    padding:0 0 0 2m;
 
 }
 
@@ -31,5 +37,5 @@ section{
    width:500px;
    text-align:center;
    color:dimgray;
-   padding:0 0 0 0em;
+   padding:0 0 0 10em;
 }
