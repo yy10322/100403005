@@ -2,7 +2,6 @@
 
 body{
 	background:#f6f3e2 
-	url(../images/bg.png) 
 	repeat-x; 
 	color:#644f4c; 
 	font-family:georgia, arial, tahoma, ;}
@@ -113,16 +112,16 @@ ul,ol li{
 
 /*news area */
 
-#news_area{width:960px; height:300px; float:left; margin:15px 0 0 0; padding:0 0 0 0;}
+#news_area{width:960px; height:200px; float:left; margin:15px 0 0 0; padding:0 0 0 0;}
 
-.news_area1{width:280px; height:300px; float:left; margin:0 10px 0 10px; padding:0 10px 0 10px; background:#e4e2d3;}
+.news_area1{width:280px; height:200px; float:left; margin:0 10px 0 10px; padding:0 10px 0 10px; background:#e4e2d3;}
 
-.news_area1 h2{margin:0; padding:0; color:#232323 }
+.news_area1 h2{margin:10 0 10 0; padding:0 2 2 0; color:#232323 }
 
 
-.news_area1 img{float:left; margin:10px 10px 0 0; padding:0 0 0 0;}
+.news_area1 img{width:100px; height:100px;float:left; margin:10px 10px 0 0; padding:0 20 0 0;}
 
-.news_area1 p{margin:0 0 0 0; padding:0 0 0 0; font-family:georgia, arial, tahoma; font-size:11px; line-height:20px}
+.news_area1 ul{margin:20 0 0 0; padding:0 0 0 0;color: #191970; font-family:georgia, arial, tahoma; font-size:15px; line-height:20px}
 
 .news_area1 .moor{width:80px; height:100%; float:right; font:normal 11px georgia, arial, tahoma; margin:15px 0 0 0;}
 
@@ -139,18 +138,9 @@ ul,ol li{
 
 /*footer*/
 
-#footer{width:960px; height:100px; margin:0 0 0 0; float:left; text-align:center;  background:#232323;}
+#footer{width:2000px; height:100px; margin:20 0 0 0; float:left; text-align:center;  background:#232323;}
 
 #footer_nav{width:760px; height:30px; margin:10px 0 0 0;}
-
-#footer_nav ul{ margin:0 0 0 250px; padding:0;}
-
-#footer_nav ul li{display:inline; float:left; height:30px}
-
-#footer_nav ul li a{display:block; font-size:10px; margin:0 5px 0 5px; padding:0 5px 0 5px; color:#ccc; text-decoration:none; height:30px}
-
-#footer_nav ul li a:hover{color:#644f4c;}
-
 
 #copyright{font-size:10px; color:#ccc; padding:0px; margin:5px 20px 0 0;}
 
