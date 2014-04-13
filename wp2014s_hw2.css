@@ -1,11 +1,16 @@
-@charset "utf-8";
-/* CSS Document */
 
-body{background:#f6f3e2 url(../images/bg.png) repeat-x; color:#644f4c; font-family:georgia, arial, tahoma;}
 
-img{border:none;}
+body{
+	background:#f6f3e2 
+	url(../images/bg.png) 
+	repeat-x; 
+	color:#644f4c; 
+	font-family:georgia, arial, tahoma, ;}
 
-h1, h2, h3, h4, h5, h6{ margin:0; padding:0; color:#FFFFFF;}
+h1, h2, h3, h4, h5, h6{ 
+	margin:0; 
+	padding:0; 
+	color:#FFFFFF;}
 
 h1{ font-size: 22px; }
 h2{ font-size: 18px;}
@@ -14,65 +19,85 @@ h4{ font-size: 14px; }
 h5{ font-size: 12px;}
 h6{ font-size: 10px;}
 
-ul,ol li{color:#ccc; line-height:25px; }
+ul,ol li{
+	color:#ccc; line-height:25px; }
 
 .clr{ clear:both; }
 
-#wrapper{width:960px; height:auto; margin:0 auto; }
-
+#wrapper{
+	width:960px; height:auto; margin:0 auto; }
 
 
 /*header*/
 
-#header{width:960px; height:100px; float:left; margin:0 0 0 0; float:left; text-align:center;}
+#header{
+	width:960px; height:100px; float:left; margin:0 0 0 0; float:left; text-align:center;}
 
-#header h1{font-size:26px; margin:30px 0 0 5px; color:#232323;}
+#header h1{
+	font-size:26px; margin:30px 0 0 5px; color:#232323;}
 
-#header h6{font-size:12px; margin:10px 0 0 10px; color:#232323;}
+#header h6{
+	font-size:12px; margin:10px 0 0 10px; color:#232323;}
 
 
 
 /*top menu*/
 
-#top-menu{width:960px; height:30px; float:left; margin:0 0 0 0; padding:0 0 0 0;}
+#top-menu{
+	width:960px; height:30px; float:left; margin:0 0 0 0; padding:0 0 0 0;}
 
-#nav_top{width:300px; height:30px; margin:5px 0 0 0; padding:0 0 0 0; text-align:center; float:right;}
+#nav_top{
+	width:300px; height:30px; margin:5px 0 0 0; padding:0 0 0 0; text-align:center; float:right;}
 
-#nav_top ul{margin:0 0 0 0px; padding:0 0 0 0;}
+#nav_top ul{
+	margin:0 0 0 0px; padding:0 0 0 0;}
 
-#nav_top ul li{ display:inline;}
+#nav_top ul li{ 
+	display:inline;}
 
-#nav_top ul li a{ display:block; float:right; font-size:10px; text-decoration:none; margin:0 10px 0 10px; padding:0 5px 0 5px; color:#ccc; font-weight:normal;}
+#nav_top ul li a{ 
+	display:block; float:right; font-size:10px; text-decoration:none; margin:0 10px 0 10px; padding:0 5px 0 5px; color:#ccc; font-weight:normal;}
 
-#nav_top ul li a:hover{color:#644f4c;}
+#nav_top ul li a:hover{
+	color:#644f4c;}
 
 
 
 /*menu top*/
 
-#menu-top{width:960px; height:60px; float:left; margin:5px 0 0 0; padding:0 0 0 0;}
+#menu-top{
+	width:960px; height:60px; float:left; margin:5px 0 0 0; padding:0 0 0 0;}
 
-#top_nav{width:660px; height:30px; margin:20px 0 0 0; padding:0 0 0 0; text-align:center; float:left;}
+#top_nav{
+	width:660px; height:30px; margin:20px 0 0 0; padding:0 0 0 0; text-align:center; float:left;}
 
-#top_nav ul{margin:0 0 0 0px; padding:0 0 0 0;}
+#top_nav ul{
+	margin:0 0 0 0px; padding:0 0 0 0;}
 
-#top_nav ul li{ display:inline;}
+#top_nav ul li{ 
+	display:inline;}
 
-#top_nav ul li a{ display:block; float:left; font-size:12px; text-decoration:none; margin:0 7px 0 7px; padding:0 7px 0 7px; color:#ccc; font-weight:normal;}
+#top_nav ul li a{ 
+	display:block; float:left; font-size:12px; text-decoration:none; margin:0 7px 0 7px; padding:0 7px 0 7px; color:#ccc; font-weight:normal;}
 
-#top_nav ul li a:hover{color:#644f4c;}
+#top_nav ul li a:hover{
+	color:#644f4c;}
 
 
 
 /*search box*/
 
-#search_area{width:250px; height:30px; float:right; margin:15px 0 0 0; padding:0 0 0 0;}
+#search_area{
+	width:250px; height:30px; float:right; margin:15px 0 0 0; padding:0 0 0 0;}
 
-#form_search{margin:0; padding:0;}
+#form_search{
+	margin:0; padding:0;}
 
-#search_box{width:200px; height:30px; background:#333333; border:none; color:#ccc; float:left;} 
+#search_box{
+	width:200px; height:30px; background:#333333; border:none; color:#ccc; float:left;} 
 
-#search_btn{width:30px; height:31px; background:#333333; border:none; color:#ffffff; background:#fff url(../images/search_icon.png) no-repeat 3px 5px; padding:0 0 0 0; float:left; margin:0 0 0 5px;} 
+#search_btn{
+	width:30px; height:31px; background:#333333; border:none; color:#ffffff; background:#fff url(../images/search_icon.png) no-repeat 3px 5px; padding:0 0 0 0; float:left; margin:0 0 0 5px;} 
 
 
 
