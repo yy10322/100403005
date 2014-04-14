@@ -95,7 +95,7 @@ ul,ol li{
 #search_box{
 	width:200px; height:30px; background:#333333; border:none; color:#ccc; float:left;} 
 
-#search_btn{width:30px; height:31px; background:#333333; border:none; color:#ffffff; background:#fff url(http://images.payeasy.com.tw/products/4017/1583/1583812.jpg) no-repeat 3px 5px; padding:0 0 0 0; float:left; margin:0 0 0 5px;} 
+#search_btn{width:30px; height:31px; background:#333333; border:none; color:#ffffff; background:#fff url(../images/search_icon.png) no-repeat 3px 5px; padding:0 0 0 0; float:left; margin:0 0 0 5px;} 
 
 
 
